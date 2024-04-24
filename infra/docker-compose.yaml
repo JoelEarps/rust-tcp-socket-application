@@ -1,0 +1,6 @@
+services:
+  rust-dev-env:
+    image: rust:latest
+    volumes:
+      - ../:/code
+      - ~/.ssh:/root/.ssh
