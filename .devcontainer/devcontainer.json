@@ -1,0 +1,24 @@
+{
+  "name": "Rust",
+
+  "dockerComposeFile": "../infra/docker-compose.yaml",
+
+  "service": "rust-dev-env",
+
+  "workspaceFolder": "/code/",
+
+  "overrideCommand": true,
+
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "ms-vsliveshare.vsliveshare",
+        "streetsidesoftware.code-spell-checker",
+        "ms-azuretools.vscode-docker",
+        "rust-lang.rust-analyzer",
+        "serayuzgur.crates"
+      ]
+    }
+  }
+}
