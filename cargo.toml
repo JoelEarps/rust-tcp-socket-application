@@ -1,0 +1,16 @@
+[workspace]
+members = [
+    "transmitter",
+    "receiver",
+]
+resolver = "2"
+
+[profile.test]
+opt-level = 3
+[profile.release]
+opt-level = 3
+debug = false
+debug-assertions = true
+overflow-checks = true
+lto = "thin"
+incremental = false

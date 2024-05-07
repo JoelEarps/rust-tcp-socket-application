@@ -3,7 +3,7 @@
 
   "dockerComposeFile": "../infra/docker-compose.yaml",
 
-  "service": "rust-dev-env",
+  "service": "rust-environment",
 
   "workspaceFolder": "/code/",
 

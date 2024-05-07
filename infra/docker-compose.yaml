@@ -1,5 +1,5 @@
 services:
-  rust-dev-env:
+  rust-environment:
     image: rust:latest
     volumes:
       - ../:/code
